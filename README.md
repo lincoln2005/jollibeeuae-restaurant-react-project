@@ -1,12 +1,10 @@
 # Jollibeeuae
+This project is developed by bellow design benefits.
 
-## Motivation
-The motivation is simple, Best Development Experience and App performance.
-1. `redux` store and middlewares as the state management.
-2. `webpack` config for development and production.
-3. Enable Hot-reload.
-4. Configure `babel`, `eslint`, `jest` and more...
-5. If project gets bigger, you need to setup some plugins such as `happypack`, `webpack-dll-plugin` to reduce webpack build time.
+- Effective use of typography: Choose fonts that are easy to read and visually appealing. Use typography to create hierarchy and emphasize important information on the website.
+- White space: Utilize white space effectively to give breathing room to content and create a sense of balance in the design.
+- Consistent branding: Ensure that your branding elements such as logo, colors, and fonts are consistent across all pages of the website. This will help users recognize and remember your brand.
+- Interactive elements: Incorporate interactive elements such as buttons, animations, and micro-interactions to engage users and make the website more dynamic.
 
 ![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/24895f6b-e83c-42a2-90e6-7bd909248ed3)
 
