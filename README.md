@@ -1,4 +1,4 @@
-![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/ac20181e-bb76-4a20-b7a1-a431514b9627)![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/9aa93f85-d74b-4349-9003-4b22736205a0)# Jollibeeuae
+# Jollibeeuae
 
 ## Motivation
 The motivation is simple, Best Development Experience and App performance.
