@@ -1,51 +1,22 @@
-<div align="center">
-  <!-- Dependency Status -->
-  <a href="https://david-dm.org/falloutchonny/react-starter-boilerplate" title="dependencies status">
-    <img src="https://david-dm.org/falloutchonny/react-starter-boilerplate/status.svg"/>
-  </a>
-  <!-- devDependency Status -->
-  <a href="https://david-dm.org/falloutchonny/react-starter-boilerplate?type=dev" title="devDependencies status">
-    <img src="https://david-dm.org/falloutchonny/react-starter-boilerplate/dev-status.svg"/></a>
-  <!-- Build Status -->
-  <a href="https://travis-ci.org/FallOutChonny/react-starter-boilerplate">
-    <img src="https://travis-ci.org/FallOutChonny/react-starter-boilerplate.svg?branch=master" alt="Build Status" />
-  </a>
-  <a href="#badge">
-    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
-  </a>
-  <!-- Test Coverage -->
-</div>
-
-# React Starter Boilerplate
-
-[DEPCREATED] Now I would recommend: For Server-side Rendering can use Next.js; For Client-side Rendering can use Create-React-App.
-
-A starter kit for universal react app, this project is extends from ejected create-react-app.
-
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/falloutchonny/react-starter-boilerplate)
-
-## Customization
-
-* [feature/without-immutablejs](https://github.com/FallOutChonny/react-starter-boilerplate/tree/feature/without-immutablejs)
-    — rewrite redux code without immutablejs library
+![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/ac20181e-bb76-4a20-b7a1-a431514b9627)![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/9aa93f85-d74b-4349-9003-4b22736205a0)# Jollibeeuae
 
 ## Motivation
-
 The motivation is simple, Best Development Experience and App performance.
-
-When you start a new react project, you need to do a lot of settings:
-
 1. `redux` store and middlewares as the state management.
 2. `webpack` config for development and production.
 3. Enable Hot-reload.
 4. Configure `babel`, `eslint`, `jest` and more...
 5. If project gets bigger, you need to setup some plugins such as `happypack`, `webpack-dll-plugin` to reduce webpack build time.
 
-And once app is online, you have to optimize the performance for production.
+![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/24895f6b-e83c-42a2-90e6-7bd909248ed3)
 
-All of the settings are very complicated, and if you want to go server-side rendering, it will be more complicated.
+![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/0e475c6c-3665-4fc5-b216-7d6de8a17055)
 
-So I created this project and covers all the above settings, let you can focus on writing components, handling data flow and business logic.
+![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/a4797306-706d-4a12-a50b-a07d9be91545)
+
+![image](https://github.com/stealthstar/jollibeeuae/assets/161687817/320fd70b-c040-4883-9b33-de343de793ad)
+
+So I created this project and covers all the above settings, handling data flow and business logic.
 
 ## Uses
 
@@ -73,144 +44,3 @@ So I created this project and covers all the above settings, let you can focus o
 * `webpack-bundle-analyzer` to review webpack output files with an interactive zoomable treemap.
 * `ESLint` maintain your code quality with ease.
 * `Prettier` keep code style consistency, it will performing code formatting when commit.
-
-You can also install [react-devtools](https://github.com/facebook/react-devtools), this is a browser extension made by facebook.
-
-### Production Ready
-
-* Route and component level code splitting.
-* Async inject reducer and saga that are on the page.
-* Offline support via service-worker.
-* Long-term browser caching support.
-* 🔥 Streaming Server-sdie rendering with  `renderToNodeStream` introduced in `react v16`
-* Server-side cache To speed up SSR.
-
-### SEO Friendly
-
-This is a SSR (Server-side Rendering) project, so web content can be crawlable, and we use `react-helmet` to inject meta tags into html head dynamically from within components, so social medias like Google Plus and Facebook can know your website's metadata.
-
-### Supported Language Features
-
-This project supports all of the [ES6](https://github.com/lukehoban/es6features) and [ES7](https://github.com/ldfaiztt/es7-features) syntax features.
-
-### Supported Style language
-
-You can write `css`, `less` and `scss`, but I recommend you to use [styled-components](https://github.com/styled-components/styled-components).
-
-## Let's Getting Started
-
-First, install the node modules
-
-```bash
-npm install
-```
-
-or you can run `yarn install`
-
-Then, run the following command, this will run the app in the development mode.
-
-```bash
-npm run dev
-```
-
-and you can open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Available Scripts
-
-In the project directory, you can also run:
-
-### `npm run build:dll`
-
-Generate a DLL file stored in build/dll folder, this file bundles all of the third-party packages like react, redux, styled-components etc, so we don't need rebuild these module in dev, it will save a lot of webpack rebuild time that increase development efficiency.
-
-### `npm run analyze`
-
-Generate stats.json and report.html in build folder, you can upload stats.json file on [webpack.github.io/analyse/#hints](http://webpack.github.io/analyse/#hints) or open `report.html` see bundle content.
-
-### `npm run flow`
-
-Run the static type checker [flow checkers](https://flow.org/en/) to check your program.
-
-### `npm run test`
-
-Launches the test runner in the interactive watch mode.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm run lint`
-
-Run ESLint (code quality tool) that checks for problems in your app code.
-
-### `npm run start`
-
-Run your server with production build result.
-
-## Folder Structure
-
-`src`: Your app code.
-
-`src/containers`: Routing components such as `Login`, `Home` pages...
-
-`src/copomnents`: Shared specific styling components such as Button, Form...
-
-`src/client`: client-side entry point
-
-`src/server`: server-side entry point
-
-`config`: Settings for project build.
-
-`scripts`: CLI commands.
-
-## Server-Side Rendering Data Flow
-
-The data flow from server to client when received a http request, for more details you can see the code in `src/server/server.js`.
-
-1. Runs matching of routes in react-router for server.
-2. Extract all of the static preLoad methods from within components.
-3. Makes async data fetching request.
-4. Renders Route component to string.
-5. Get `styled-components` style tags that are on page.
-6. Get `react-loadable` chunks that are on page.
-7. Generate HTML string (with Meta, Script, Style tags) and send to client.
-8. Client-side receives html file with preload state from server.
-9. Client-side initializes redux store with given state and render page.
-
-## How To Add Font-Awesome Icon
-
-Since font-awesome v5 that give us a lot of benefits, we can inline the CSS directly into the page and load icon on-demand, you can add the icon you want.
-
-1. In the `src/utils/font-awesome.js`.
-2. Import icon, ex: `import faUser from '@fortawesome/fontawesome-free-solid/faUser'`.
-3. Add icon into library. `fontawesome.library.add(faUser)`.
-
-## How To Remove Font-Awesome
-
-1. Remove `Line 14` in `src/client/index.js`.
-2. Remove `src/utils/font-awesome.js`.
-3. Remove all of the icons that used in React components.
-4. Remove `@fortawesome/fontawesome` `@fortawesome/fontawesome-free-brands` `@fortawesome/fontawesome-free-solid` in the `package.json` dependencies.
-
-## How To Add Bootstrap
-
-1. `npm install bootstrap@v4.0.0 bootstrap-loader`.
-2. Set `process.env.SHOULD_USE_BOOTSTRAP=true` in `config/webpack/index.js`.
-3. Bootstrap css and js will load into webpack bundle, now you can feel free to it.
-4. You can also install `reactstrap`, its a bootstrap 4 components built for `React`.
-
-## Road map
-
-* Call API demo.
-* Authentication Route.
-* Load font-awesome 5 with inline style tag (like styled-components).
-* Deploy a demo site.
-* Rewrite homepage (I'm not good at UI design and I know it's ugly, can anyone give me some suggestions).
-* Beauty terminal output.
-* Modularized.
-* Write unit test for react components, reducers and sagas.
-
-## License
-
-This project is licensed under the MIT license, For more information see `LICENSE`.
